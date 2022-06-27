@@ -1,0 +1,49 @@
+HBox {
+	-fx-alignment: center-left;
+	-fx-fill-height: true;
+	-fx-spacing: 10;
+}
+
+.radio-button:selected .radio .dot {
+	-fx-background-color: red;
+	-fx-background-insets: 0;
+}
+
+.label.name-3v3 {
+	-fx-background-color: magenta;
+	background-color: magenta;
+	-fx-text-fill: white;
+}
+
+.label.name-5v {
+	-fx-background-color: red;
+	background-color: red;
+	-fx-text-fill: white;
+}
+
+.label.name-gnd {
+	-fx-background-color: black;
+	background-color: black;
+	-fx-text-fill: white;
+}
+
+.readonly-enabled {
+	-fx-opacity: 1;
+	opacity: 1;
+}
+
+.readonly-disabled {
+	-fx-opacity: 0.3;
+	opacity: 0.3;
+}
+
+.toggle-button.output {
+	-fx-background-radius: 5em;
+}
+
+.toggle-button.output:selected {
+	-fx-background-radius: 5em;
+	-fx-background-color: red;
+	background-color: red;
+	-fx-text-fill: white;
+}
